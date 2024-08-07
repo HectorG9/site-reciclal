@@ -1,31 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-:root {
-    --green: #425B4A;
-    --gray: #CCCCCC;
-    --gray-100: #757575;
-    --blue-100:#04BF8A;
-    --blue-200: #026873;
-    --yellow: #FED250;
-    --white: #F7F5ED;
-    --blue: #0C615F;
-    --yellow-100:#E7C030;
-}
-
-body {
-    background-color: var(--gray);
-    height: 100vh auto;
-    color: var(--white);
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;    
-    /*  */
-}
+@import url("./global.css");
 
 nav {
     background-color: var(--green);
@@ -69,23 +42,45 @@ main {
     background-color: var(--white);
     margin: 15px 15px 15px 15px;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.555);
+    padding: 20px;
 }
 
 #maintitulo {
     color: var(--blue);
 }
 
-footer {
-    background-color: var(--blue);
-    font-size: 25px;
+.container {
+    margin: 0 auto;
+    padding: 24px;
+    text-align: center;
+    background-color: var(--blue-200);
+}
+/* footer */
+.footer-link {
+    font-weight: bold;
+    color: gray;
+    text-transform: uppercase;
+    margin: 0 14px;
+    letter-spacing: 2px;
 }
 
-.authors {
-    color: var(--gray-100);
-    font-size: 15px;
-    font-family: 'Poppins';
-}
-
-.contact {
+.footer-img {
     width: 30px;
+    margin-right: 10px;
+}
+
+.p {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-link:hover {
+    color: var(--white);
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 40px;
 }
