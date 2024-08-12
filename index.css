@@ -5,9 +5,8 @@ nav {
     height: 100px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    grid-gap: 20px;
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 4fr);
+    /* grid-template-rows: repeat(1, 2fr); */
     align-items: center;
     font-size: 30px;
     position: fixed;
@@ -54,7 +53,7 @@ article {
 } 
 aside {
     display: flex;
-    margin: 35px ;
+    margin: 35px;
 } 
 .pmain {
     letter-spacing: 1.8px;
@@ -72,6 +71,7 @@ aside {
     font-size: 32px;
 }
 
+/* footer */
 
 .container {
     margin: 0 auto;
@@ -79,7 +79,9 @@ aside {
     text-align: center;
     background-color: var(--blue-200);
 }
-/* footer */
+.authors {
+    margin-top: 20px;
+}
 .footer-link {
     font-weight: bold;
     color: gray;
@@ -94,8 +96,11 @@ aside {
 }
 
 .p {
-    font-size: 22px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.p2 {
+    margin-top: 20px;
 }
 
 .footer-link:hover {
