@@ -1,4 +1,7 @@
 @import url('./global.css');
+body {
+    background-color: white;
+}
 nav {
     background-color: var(--green);
     height: 100px;
@@ -10,7 +13,18 @@ nav {
     font-size: 30px;
     position: fixed;
     width: 100%; 
-    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 1000px;
+    width: 100%;
+    background-image: url(./images/senai.jpg);
+    box-shadow: 1000px 1000px 10px 10px rgb(0, 0, 0, 0.300) inset;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
 }
 
 ul{
@@ -20,11 +34,65 @@ ul{
 }
 
 .navlink {
-    color: var(--blue-100);
+    color: var(--white);
     margin: 20px;
 }
 .navlink:hover {
     color: var(--yellow-100);
     transition: 0.5s;
     padding: 10px;
+}
+
+main {
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#maintitulo {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.pmain {
+    width: 95%;
+    text-align: center;
+}
+
+/* .membros{
+    display: flex;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    width: 200px ;
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: underline;
+} */
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-family: sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    justify-content: center;
+    width: 40%;
+    margin-top: 35px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+thead{
+    background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 8px 10px;
+  text-align: center;
 }
