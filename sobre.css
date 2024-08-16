@@ -96,3 +96,23 @@ td {
   padding: 8px 10px;
   text-align: center;
 }
+
+.about {
+    margin-top: 10px;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+.destaque {
+    font-weight: bold;
+    color: var(--gray-100);
+}
+
+.lista {
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+li {
+    margin-top: 10px;
+}
