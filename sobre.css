@@ -107,12 +107,5 @@ td {
     color: var(--gray-100);
 }
 
-.lista {
-    display: inline-block;
-    margin-top: 10px;
 
-}
 
-li {
-    margin-top: 10px;
-}
