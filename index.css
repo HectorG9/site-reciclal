@@ -1,7 +1,7 @@
 @import url("./global.css");
 
 nav {
-    background-color: var(--green);
+    background-color: var(--blue);
     height: 100px;
     width: 100%;
     display: grid;
@@ -13,7 +13,6 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 ul{
     display: flex;
     justify-content: center; 
@@ -23,6 +22,18 @@ ul{
 .navlink {
     color: var(--white);
     margin: 20px;
+    text-decoration: underline;
+}
+
+.logo {
+    color: var(--white);
+    font-size: 35px;
+    margin-left: 10px;
+}
+.plogo {
+    color:var(--white);
+    font-size: 15px;
+    margin-left: 10px;
 }
 .navlink:hover {
     color: var(--yellow-100);
@@ -43,7 +54,7 @@ header {
 
 main {
     height: auto;
-    background-color: var(--gray);
+    background-color: var(--white);
     margin: 15px;
     box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.8);
     padding: 15px;
@@ -81,17 +92,18 @@ aside {
     margin: 0 auto;
     padding: 24px;
     text-align: center;
-    background-color: var(--blue-200);
+    
 }
 .authors {
     margin-top: 20px;
 }
 footer {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--green);
 }
 .footer-link {
     font-weight: bold;
-    color: gray;
+    color: var(--blue-300);
     text-transform: uppercase;
     margin: 0 14px;
     letter-spacing: 2px;

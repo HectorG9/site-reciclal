@@ -1,0 +1,107 @@
+@import url('./global.css');
+body {
+    background-color: var(--white);
+} 
+
+header{  
+    height: 1000px;
+    width: 100%;
+    background-image: url(./images/softwork2.jpeg);
+    box-shadow: 1000px 1000px 10px 10px rgb(0, 0, 0, 0.200) inset;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+} 
+
+nav {
+    background-color: var(--blue);
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    /* grid-template-rows: repeat(1, 2fr); */
+    align-items: center;
+    font-size: 30px;
+    /* position: fixed; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: center; 
+    gap: 50px;
+}
+
+.navlink {
+    color: var(--white);
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.logo {
+    color: var(--white);
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.plogo {
+    color:var(--white);
+    font-size: 15px;
+    margin-left: 10px;
+}
+.texto {
+    background-color: var(--gray);
+}
+.pmain {
+    letter-spacing: 1.8px;
+    /* width: 400px auto; */
+    margin-top: 10px;
+    color: black;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.title {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.navlink:hover {
+    color: var(--yellow-100);
+    transition: 0.5s;
+    padding: 10px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    /* margin-top: 50px; */
+    background-color: var(--gray);
+}
+.card {
+    margin: 10px;
+    background-color: var(--blue);
+    border-radius: 10px;
+}
+.card-img-top {
+    margin-top: 10px;
+    width: 288px;
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link {
+    color: var(--white);
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+}

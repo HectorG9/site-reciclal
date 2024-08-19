@@ -3,7 +3,7 @@ body {
     background-color: white;
 }
 nav {
-    background-color: var(--green);
+    background-color: var(--blue);
     height: 100px;
     display: grid;
     grid-template-columns: repeat(3, 3fr);
@@ -33,9 +33,22 @@ ul{
     gap: 50px;
 }
 
+.logo {
+    color: var(--white);
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.plogo {
+    color:var(--white);
+    font-size: 15px;
+    margin-left: 10px;
+}
+
 .navlink {
     color: var(--white);
     margin: 20px;
+    text-decoration: underline;
 }
 .navlink:hover {
     color: var(--yellow-100);
